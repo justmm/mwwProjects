@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd" >
+<hibernate-mapping>
+	<class name="com.mm.cs.entities.ListThird" table="tb_listthird">
+		<id name="ListThirdId" type="java.lang.String">
+			<column name="LISTTHIRD_ID"></column>
+			<generator class="uuid"></generator>
+		</id>
+		
+		<property name="ListThirdName" type="java.lang.String">
+			<column name="LISTTHIRD_NAME"></column>
+		</property>
+	</class>
+
+</hibernate-mapping>

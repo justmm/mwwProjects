@@ -1,0 +1,33 @@
+table.hovertable {
+		font-family: verdana,arial;
+		font-size:15px;
+		color:black;
+		width:100%;
+		border-width: 0px;
+		border-color: #FFF;
+		border-collapse: collapse;
+		}
+		table.hovertable th {
+		background:url(../images/th.gif) repeat-x;
+		border-width: 0px;		
+		padding: 2px;
+		border-style: solid;
+		border-bottom: #D2EEEE;
+		}
+		table.hovertable tr {
+		background-color:#5F9EA0;
+		}
+		table.hovertable td {
+		border-width: 0px;
+		padding: 3px;
+		border-style: solid;
+		border-color: #a9c6c9;
+		}
+		
+		.press {
+color: transparent;
+background-color : black;
+text-shadow : rgba(255,255,255,0.5) 0 5px 6px, rgba(255,255,255,0.2) 1px 3px 3px;
+-webkit-background-clip : text;
+}
+
